@@ -33,7 +33,10 @@ sudo ./install.sh
 
 Glavna skripta za rad na terenu.
 
-    Pokreni sa: sudo python3 rukovanje.py
+    Pokreni sa: 
+```bash 
+sudo python3 rukovanje.py 
+```
 
     Izaberi mrežnu kartu. (ako ima samo jedna automatski bira nju)
 
@@ -47,7 +50,10 @@ Glavna skripta za rad na terenu.
 
 Skripta koja skenira tvoj folder u potrazi za .22000 fajlovima.
 
-    Pokreni sa: python3 lokalno.py
+    Pokreni sa: 
+```bash
+    python3 lokalno.py
+```
 
     Izaberi koji fajl želiš da napadneš.
 
