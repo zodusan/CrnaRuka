@@ -36,14 +36,11 @@ Glavna skripta za rad na terenu.
 ```bash 
 sudo python3 rukovanje.py 
 ```
-
-    Izaberi mrežnu kartu. (ako ima samo jedna automatski bira nju)
-
-    Pronađi metu (BSSID i kanal).
-
-    Skripta radi deauth i čeka handshake.
-
-    Po završetku, čisti sistem, restartuje mrežu i nudi Hashcat meni.
+Izaberi mrežnu kartu. (ako ima samo jedna automatski bira nju)
+Nekon prvog skeniranja pritisnuti Ctrl + C da se skeniranje zaustavi pa zatim unostite 
+(BSSID i kanal i ime_fajl koje ce da napravi - obicno ime mreze).
+Skripta radi deauth i čeka handshake. (Isto se izlazi na CTRl + C)
+Po završetku, čisti sistem, restartuje mrežu i nudi Hashcat meni.
 
 2. lokalno.py (Offline rad)
 
@@ -53,9 +50,9 @@ Skripta koja skenira tvoj folder u potrazi za .22000 fajlovima.
     python3 lokalno.py
 ```
 
-    Izaberi koji fajl želiš da napadneš.
+Izaberi koji fajl želiš da napadneš.
 
-    Biraj između: srpski.txt, rockyou.txt ili 8-digit brute force.
+Biraj između: srpski.txt, rockyou.txt ili 8-digit brute force.
 
 ⚠️ Napomena (Disclaimer)
 
