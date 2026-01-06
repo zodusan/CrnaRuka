@@ -1,0 +1,5 @@
+*.cap
+*.csv
+*.netxml
+*.log
+temp_capture*
