@@ -32,7 +32,6 @@ sudo ./install.sh
 1. rukovanje.py (Hvatanje uživo)
 
 Glavna skripta za rad na terenu.
-
     Pokreni sa: 
 ```bash 
 sudo python3 rukovanje.py 
@@ -49,7 +48,6 @@ sudo python3 rukovanje.py
 2. lokalno.py (Offline rad)
 
 Skripta koja skenira tvoj folder u potrazi za .22000 fajlovima.
-
     Pokreni sa: 
 ```bash
     python3 lokalno.py
