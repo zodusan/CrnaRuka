@@ -3,6 +3,7 @@
 Ovaj projekat sadrži set Python skripti za automatizaciju procesa hvatanja WPA/WPA2 handshake-ova i njihovo probijanje (cracking) koristeći Hashcat. Dizajnirano za **Kali Linux** i optimizovano srpski recnikom.
 
 
+
 ## 🚀 Mogućnosti
 * **Automatska detekcija kartice:** Prepoznaje dostupne Wi-Fi interfejse.
 * **Smart Monitor Mode:** Automatski prebacuje karticu u monitor mod i gasi procese koji smetaju.
@@ -11,12 +12,21 @@ Ovaj projekat sadrži set Python skripti za automatizaciju procesa hvatanja WPA/
 * **Lokalni Cracker:** Posebna skripta za upravljanje sačuvanim handshake-ovima i pokretanje tri različita tipa napada (srpski.txt rockyou.txt i kombinacija 8 brojeva)
 
 ## 🛠️ Preduslovi
-Pre korišćenja, instaliraj neophodne alate:
-```bash
-sudo apt update
-sudo apt install python3 aircrack-ng hcxtools hashcat
-```
 
+## 🚀 Brzi početak (Instalacija)
+
+**Važno:** Pre bilo kakvog rada, morate pokrenuti instalacionu skriptu. Ona će instalirati potrebne alate, otpakovati vaš lokalni rečnik (`srpski.zip`) i pripremiti `rockyou.txt` (otpakovati ga ili preuzeti sa interneta ako nedostaje).
+
+1. Klonirajte repozitorijum:
+```bash
+git clone [https://github.com/zodusan/CrnaRuka.git)](https://github.com/zodusan/CrnaRuka.git)
+cd CrnaRuka
+```
+2. Pokrenite instalaciju:
+```bash
+chmod +x install.sh
+sudo ./install.sh
+```
 
 📂 Opis skripti
 1. rukovanje.py (Hvatanje uživo)
